@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.UserModule.copy.ExtendsBaseClass.AdminLoginLogout2Test">
+        <methods>
+          <include name="logOutFromApp"/>
+          <include name="LogoinToApp"/>
+          <include name="AdminLogiLogoutTest"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.UserModule.copy.ExtendsBaseClass.AdminLoginLogout2Test -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

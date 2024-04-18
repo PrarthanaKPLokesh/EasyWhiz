@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="com.TestNG_BatchlExecution.PracticeTest">
+        <methods>
+          <include name="DiscoonectToDB"/>
+          <include name="logOutFromApp"/>
+          <include name="LogoinToApp"/>
+          <include name="Practice2Test"/>
+          <include name="launchBrowser"/>
+          <include name="Practice3Test"/>
+          <include name="closeBrowser"/>
+          <include name="Practice1Test"/>
+        </methods>
+      </class> <!-- com.TestNG_BatchlExecution.PracticeTest -->
+      <class name="com.TestNG_BatchlExecution.SampleTest">
+        <methods>
+          <include name="DiscoonectToDB"/>
+          <include name="Sample3Test"/>
+          <include name="logOutFromApp"/>
+          <include name="LogoinToApp"/>
+          <include name="Sample2Test"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="Sample1Test"/>
+        </methods>
+      </class> <!-- com.TestNG_BatchlExecution.SampleTest -->
+      <class name="com.TestNG_BatchlExecution.DemoTest">
+        <methods>
+          <include name="EditTest"/>
+          <include name="DiscoonectToDB"/>
+          <include name="logOutFromApp"/>
+          <include name="CreateTest"/>
+          <include name="DeleteTest"/>
+          <include name="LogoinToApp"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.TestNG_BatchlExecution.DemoTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
